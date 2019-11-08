@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/renewlicense', 'RenewalDepartmentController@renewLicense');
+Route::get('/changeaddress', 'ChangeAddressDepartmentController@changeAddress');
